@@ -11,4 +11,9 @@ describe("VISTAS", () => {
   
       expect(montoText.innerHTML).toEqual("Monto venta:");
     });
+
+    it("Mostrar 'Monto efectivo:' en la pantalla" , () => {
+        let efectivoText = document.querySelector("#monto-efectivo");
+        expect(efectivoText.innerHTML).toEqual("Monto efectivo:");
+    });
   });  
